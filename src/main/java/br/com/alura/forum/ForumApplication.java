@@ -3,9 +3,11 @@ package br.com.alura.forum;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.data.web.config.EnableSpringDataWebSupport;
 
 @EntityScan("br.com.alura.forum.modelo")
 @SpringBootApplication
+@EnableSpringDataWebSupport
 public class ForumApplication {
 
 	
